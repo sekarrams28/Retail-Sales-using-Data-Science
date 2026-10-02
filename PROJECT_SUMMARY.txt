@@ -1,0 +1,29 @@
+Retail Sales Project Summary
+
+Rows: 1000
+Columns: 11
+Total Revenue: 19,171,279.34
+Average Revenue per Record: 19,171.28
+Total Quantity Sold: 2,364
+Unique Customers: 246
+
+Category Revenue:
+Category
+Electronics        12255676.33
+Furniture           2922021.79
+Home Appliances     1844557.06
+Fashion             1122008.14
+Accessories         1027016.02
+
+Region Revenue:
+Region
+West     5123886.30
+South    5120921.21
+East     4778065.45
+North    4148406.38
+
+Model Results:
+            Model          MAE         RMSE  R2_Score
+Linear Regression 10222.966015 23572.055508  0.745645
+    Decision Tree  1737.805442  7464.241878  0.974495
+    Random Forest  1240.813946  5645.369931  0.985411
